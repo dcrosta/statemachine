@@ -1,7 +1,7 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from distribute_setup import use_setuptools
+use_setuptools('0.6c15')
+
+from setuptools import setup
 
 setup(name='statemachine',
       version='0.1',
