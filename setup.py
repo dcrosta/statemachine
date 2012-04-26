@@ -10,4 +10,6 @@ setup(name='statemachine',
       author_email='kyle@kyleconroy.com',
       url='https://github.com/kyleconroy/statemachine',
       py_modules=['statemachine'],
+      # use python setup.py nosetests to test
+      setup_requires=['nose', 'coverage'],
      )
